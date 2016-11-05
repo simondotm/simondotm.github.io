@@ -1,10 +1,11 @@
 ---
 layout: page
 navigation_title: About
-title: About Simon M
+title: About Me
 permalink: /about/
 button: true
 cover: '/images/wall3.jpg'
+organiser: "Simon2"
 ---
 After many years in software engineering I’ve rediscovered my old hobby of programming for the now vintage retro computers – particularly Acorn micros, BBC and Archimedes.
 

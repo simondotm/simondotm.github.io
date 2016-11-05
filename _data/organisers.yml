@@ -1,4 +1,7 @@
-David Boyne:
+Simon:
     name: Simon
-    email: "podvilla@gmail.com"
-    photo: "images/simondotm.png"
+    photo: "/images/simondotm.png"
+
+Simon2:
+    name: Simon
+    photo: "/images/about.jpg"
