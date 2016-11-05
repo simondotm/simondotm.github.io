@@ -1,95 +1,70 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Evento</title>
+    <title>Simon M</title>
     <description>Simple Jekyll theme to host internal/external events happening in and around your area. Free free to contribute or fork the repo.
 </description>
-    <link>http://yourdomain.com/</link>
-    <atom:link href="http://yourdomain.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 03 Feb 2016 20:00:16 +0000</pubDate>
-    <lastBuildDate>Wed, 03 Feb 2016 20:00:16 +0000</lastBuildDate>
-    <generator>Jekyll v3.1.0</generator>
+    <link>https://simondotm.github.io//</link>
+    <atom:link href="https://simondotm.github.io//feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sat, 05 Nov 2016 00:51:51 +0000</pubDate>
+    <lastBuildDate>Sat, 05 Nov 2016 00:51:51 +0000</lastBuildDate>
+    <generator>Jekyll v3.2.1</generator>
     
       <item>
-        <title>Docker</title>
-        <description>&lt;p&gt;Its everywhere. Docker, Docker, Docker! If your an expert or new to Docker come to my 3 hour training session.&lt;/p&gt;
+        <title>Tips for setting up a Minecraft server using a Raspberry Pi</title>
+        <description>&lt;p&gt;Running your own Minecraft server seems like a pretty good idea if, like me, you have one or more kids (plus their friends) who want to team up and build a world together. Yes, they can host a server on their computers, but that only works when they have their computers on and running Minecraft, so a dedicated server is the best solution all round.&lt;/p&gt;
 
-&lt;p&gt;I will also provide cake!&lt;/p&gt;
+&lt;p&gt;There’s loads of public servers out there but my lot tend to grumble endlessly about the inconsistent characters they encounter  in internet land who don’t seem to want to play the same way as them, so having their own private world makes sense, and a Pi saves you the monthly cost of renting a private realm.&lt;/p&gt;
 
-&lt;p&gt;Just click the button and let me know you want to attend.&lt;/p&gt;
+&lt;p&gt;There’s already tons of tutorials out there for getting a Minecraft server up and running on your Raspberry Pi, so I’m not going to repeat the nitty gritty. Instead, I’ve put together a handy heads up attack plan with some useful links so it might save you a bit of time hunting around once you start out on this quest.&lt;/p&gt;
 
-&lt;p&gt;I promise…it will be fun!&lt;/p&gt;
-</description>
-        <pubDate>Thu, 05 May 2016 00:00:00 +0100</pubDate>
-        <link>http://yourdomain.com/event/docker.html</link>
-        <guid isPermaLink="true">http://yourdomain.com/event/docker.html</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Web Security</title>
-        <description>&lt;p&gt;Its very important that we keep up to date with web security. This talk will be a 7 hour introduction into the latest techniques about web security
-and how we can keep our data safe across Mobiles, Desktops and Tablets.&lt;/p&gt;
+&lt;h2 id=&quot;what-youll-need&quot;&gt;What you’ll need:&lt;/h2&gt;
 
-&lt;p&gt;Let me know if you would like to attend.&lt;/p&gt;
-</description>
-        <pubDate>Sun, 03 Apr 2016 00:00:00 +0100</pubDate>
-        <link>http://yourdomain.com/event/web-security.html</link>
-        <guid isPermaLink="true">http://yourdomain.com/event/web-security.html</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>ReactJS</title>
-        <description>&lt;p&gt;I will be doing a small talk on an Introduction into ReactJS. We will cover the following:&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;A &lt;a href=&quot;https://www.amazon.co.uk/Raspberry-Pi-Model-Quad-Motherboard/dp/B01CCOXV34/ref=sr_1_2?s=computers&amp;amp;ie=UTF8&amp;amp;qid=1463347196&amp;amp;sr=1-2&amp;amp;keywords=raspberry+pi+3&quot;&gt;Raspberry Pi&lt;/a&gt; – I really recommend a Pi 2 or better. Anything less and the server will struggle to work nor satisfy lag-hating youtube generation kids.&lt;/li&gt;
+  &lt;li&gt;A &lt;a href=&quot;https://www.amazon.co.uk/SanDisk-Android-microSDHC-Frustration-Packaging/dp/B013UDL5V6/ref=sr_1_2?s=computers&amp;amp;ie=UTF8&amp;amp;qid=1463347268&amp;amp;sr=1-2&amp;amp;keywords=16gb+micro+sd+card&quot;&gt;decent fast micro SD card&lt;/a&gt; – 4Gb is fine. 8Gb is plenty. 16Gb cards tend to be a little faster, and definitely more than enough sizewise.&lt;/li&gt;
+  &lt;li&gt;A &lt;a href=&quot;https://www.amazon.co.uk/Pi-Hut-HDMI-Cable-Raspberry/dp/B00GHNLN0U/ref=sr_1_1?ie=UTF8&amp;amp;qid=1463347304&amp;amp;sr=8-1&amp;amp;keywords=hdmi+cable+raspberry+pi&quot;&gt;standard HDMI cable&lt;/a&gt; &amp;amp; TV/monitor&lt;/li&gt;
+  &lt;li&gt;A &lt;a href=&quot;https://www.amazon.co.uk/Hapurs-Raspberry-Micro-Cable-Switch/dp/B0124Q8E3M/ref=sr_1_15?ie=UTF8&amp;amp;qid=1463347356&amp;amp;sr=8-15&amp;amp;keywords=micro+usb+raspberry+pi&quot;&gt;micro USB cable&lt;/a&gt; and some sort of USB power source (phone charger etc.)&lt;/li&gt;
+  &lt;li&gt;A standard USB keyboard. I’m sure you have one knocking around somewhere.&lt;/li&gt;
+  &lt;li&gt;A standard Cat5/Cat5e/Cat6 RJ45 &lt;a href=&quot;https://www.amazon.co.uk/Belkin-Cat5e-Snagless-Patch-Cable/dp/B00009VGS3/ref=sr_1_12?ie=UTF8&amp;amp;qid=1463347631&amp;amp;sr=8-12&amp;amp;keywords=network+cable&quot;&gt;network cable&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;You’ll need to connect your Pi to a TV just once initially so that you can configure SSH (secure shell access – it’s cool, it’s like hollywood style hacking into a remote server) but after that, all the gory details can be done remotely over the network using any old PC.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;your-mission-objectives&quot;&gt;Your mission objectives:&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Download an OS image (&lt;a href=&quot;https://www.raspberrypi.org/downloads/raspbian/&quot;&gt;Raspbian Lite&lt;/a&gt; or &lt;a href=&quot;https://www.raspberrypi.org/forums/viewtopic.php?t=75882_*&quot;&gt;MinecraftPi&lt;/a&gt; and write the image to an SD card&lt;/li&gt;
+  &lt;li&gt;Connect your Pi to a keyboard and the display and &lt;a href=&quot;https://pimylifeup.com/raspberry-pi-ssh/&quot;&gt;enable SSH via raspi-config&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Unplug everything and move your Pi to where it’s going to be permanently connected to the network. Connect the Pi to your main home internet router using the network cable, and power it up. (I plugged mine straight into my BT Homehub router, and powered it off the USB slot on the back of the router). .&lt;/li&gt;
+  &lt;li&gt;Now you can &lt;a href=&quot;https://www.raspberrypi.org/documentation/remote-access/ssh/windows.md&quot;&gt;remotely log into the Pi&lt;/a&gt; using &lt;a href=&quot;http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html&quot;&gt;Putty.exe&lt;/a&gt; on Windows (or ssh on Linux) and complete all of PiMyLifeUp’s excellent &lt;a href=&quot;https://pimylifeup.com/raspberry-pi-minecraft-server/&quot;&gt;MC server setup&lt;/a&gt; tutorial – don’t forget to follow the last bit of this tutorial; setting up the Pi so that it automatically runs the server when powered up.&lt;/li&gt;
+  &lt;li&gt;That’s it – you’re done! Bask in the glow of being a tech-wizard to your kids. Now the MC server is running you can leave it powered on and running on your home network for everyone to use whenever they like.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;for-bonus-points&quot;&gt;For bonus points:&lt;/h3&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;What is React?&lt;/li&gt;
-  &lt;li&gt;How to get setup with React.&lt;/li&gt;
-  &lt;li&gt;How to get building React Apps.&lt;/li&gt;
-  &lt;li&gt;Bundle your application&lt;/li&gt;
-  &lt;li&gt;Release your application&lt;/li&gt;
+  &lt;li&gt;I recommend &lt;a href=&quot;http://www.howtogeek.com/167195/how-to-change-your-raspberry-pi-or-other-linux-devices-hostname/&quot;&gt;renaming the hostname&lt;/a&gt; of the Pi to something more personal and memorable eg. “myminecraftserver” so it’s easy to find in Minecraft&lt;/li&gt;
+  &lt;li&gt;I also recommend adjusting your router’s DHCP settings so that your Pi always gets given the same IP address on your network&lt;/li&gt;
+  &lt;li&gt;Finally, if you want to enable folks outside your home network to connect to your server, you’ll probably need to setup a dynamic DNS. I’ve posted a follow up article to cover this.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;If this sounds interesting please register your interest below.&lt;/p&gt;
+&lt;p&gt;Enjoy!&lt;/p&gt;
+
+&lt;h2 id=&quot;notes&quot;&gt;Notes&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;The tutorial I linked to uses the &lt;a href=&quot;https://www.spigotmc.org/&quot;&gt;Spigot server package&lt;/a&gt;. It works well, and is well supported. It allows you to run vanilla Minecraft or install mods/plugins as you like.&lt;/li&gt;
+  &lt;li&gt;*I haven’t tried MinecraftPi, but do let me know if you it works for you!&lt;/li&gt;
+  &lt;li&gt;Remember that performance of your server depends a great deal on the specs of your Raspberry Pi:&lt;/li&gt;
+  &lt;li&gt;Model A’s are pretty much unsuitable for Minecraft&lt;/li&gt;
+  &lt;li&gt;Model B’s came in two flavours – early versions were 256Mb and later versions were 512Mb. If you have the 256Mb version, it will struggle to run reliably.&lt;/li&gt;
+  &lt;li&gt;So if you are going to buy a Pi just for this purpose, it’s definitely worth getting a Pi2 or a Pi3. There’s 1Gb of RAM and a nice quad core CPU on these, which handles Minecraft with ease.&lt;/li&gt;
+  &lt;li&gt;The final tip I have is to make sure you get a fast SD card – class 10 or above with 80Mb/sec data transfer rating. They are amazingly cheap these days!&lt;/li&gt;
+&lt;/ul&gt;
 </description>
-        <pubDate>Mon, 28 Mar 2016 00:00:00 +0100</pubDate>
-        <link>http://yourdomain.com/event/intro-to-react.html</link>
-        <guid isPermaLink="true">http://yourdomain.com/event/intro-to-react.html</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Angular 2</title>
-        <description>&lt;p&gt;Angular computes updates based on changes to data, not DOM, for fast updates that scale to the largest data sets with minimal memory overhead.&lt;/p&gt;
-
-&lt;p&gt;With Angular Universal for server-side rendering and Web Workers for smooth scrolling and transitions, Angular 2 solves the core challenges in mobile web performance.&lt;/p&gt;
-
-&lt;p&gt;Supports several languages including plain JavaScript, TypeScript, and Dart. Also supports both object-style data structure with POJO data-binding and functional reactive style with unidirectional data flow and support for observables and immutable data structures.&lt;/p&gt;
-
-&lt;p&gt;Angular is built by a team of engineers who share a passion for making web development feel effortless. We believe that writing beautiful apps should be joyful and fun. We’re building a platform for the future….&lt;/p&gt;
-
-&lt;p&gt;If you want to know more come along to my event!&lt;/p&gt;
-</description>
-        <pubDate>Thu, 10 Mar 2016 00:00:00 +0000</pubDate>
-        <link>http://yourdomain.com/event/angular-2.html</link>
-        <guid isPermaLink="true">http://yourdomain.com/event/angular-2.html</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Getting started with AWS</title>
-        <description>&lt;p&gt;Just a quick introduction into AWS.&lt;/p&gt;
-
-&lt;p&gt;Please come along if your interested. Pizza will be provided.&lt;/p&gt;
-</description>
-        <pubDate>Tue, 05 Jan 2016 00:00:00 +0000</pubDate>
-        <link>http://yourdomain.com/event/aws.html</link>
-        <guid isPermaLink="true">http://yourdomain.com/event/aws.html</guid>
+        <pubDate>Sun, 15 May 2016 00:00:00 +0100</pubDate>
+        <link>https://simondotm.github.io//event/picraft.html</link>
+        <guid isPermaLink="true">https://simondotm.github.io//event/picraft.html</guid>
         
         
       </item>

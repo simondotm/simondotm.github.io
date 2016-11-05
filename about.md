@@ -1,25 +1,21 @@
 ---
 layout: page
 navigation_title: About
-title: About Evento
+title: About Simon M
 permalink: /about/
+button: true
+cover: '/images/wall3.jpg'
 ---
+After many years in software engineering I’ve rediscovered my old hobby of programming for the now vintage retro computers – particularly Acorn micros, BBC and Archimedes.
 
-[Evento](https://github.com/boyney123/evento) a free to use open source Jekyll project I started that allows people to create internal/external events, showing times and information for anybody that wants to attend.
+Since I found myself re-learning old knowledge, I thought I’d put up a site for sharing old code, new code, archives, discoveries and ideas.
 
-# The Problem I was trying to solve
+You can also find my projects here on [GitHub](https://github.com/simondotm/)
 
+Some things I’ve made in [ShaderToy](https://www.shadertoy.com/user/zippycoder)
 
-At my current place of work we run internal speaker events called Brownbags.
- 
-Brownbags are a great platform and environment for professionals to speak about anything that interests them. 
+Some pictures I’ve put on [Flickr](https://www.flickr.com/photos/9793651@N03/)
 
-The main problem I found was that there was no **easy to use** platform to see what Brownbags, Internal Training or other events are coming up or have already gone, so I created [Evento](https://github.com/boyney123/evento)
-
-This free and opensource platform should allow any organisation or group to collect and share their events in one place.
-
-If you would like to contribute to the project or folk it for your own organisation or group feel free. 
-
-<a href="https://github.com/boyney123/evento"><span class="icon icon--github">{% include icon-github.svg %}</span><span class="username">{{ include.username }}</span> Evento</a>
+I don’t do Twitter, or Instagram. Life is too short!
 
 
