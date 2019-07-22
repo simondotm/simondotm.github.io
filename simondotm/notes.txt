@@ -1,0 +1,38 @@
+Blogs
+-----
+BeebVSC/Extensions
+Jekyll websites
+Bitshifters
+Stardot
+Three js demo
+VGM/SN76489 stuff
+http://fernandojsg.com/about/
+
+Portfolio
+=========
+Strawdog
+- Peppa Pig
+- Geon
+- SpaceArk
+
+
+ATD
+- Sydney
+- Winter 2002
+
+Beebstuff
+- TYB
+
+Arcstuff
+- 3d tetris
+- demos
+
+
+Site tasks
+----------
+Analytics
+Disqus
+Contact
+Footer
+Google Ads
+Sponsored links
