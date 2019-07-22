@@ -1,3 +1,0 @@
-# simondotm
-
-Home page
