@@ -73,10 +73,31 @@ ga('send', 'pageview');
                 {% else %}
                 <li class="nav-item">
                 {% endif %}
-                <a class="nav-link" href="{{ site.baseurl }}/">Blog</a>
+                <a class="nav-link" href="{{ site.baseurl }}/">Home</a>
                 </li>
 
+                {% if page.url == "/categories" %}
+                <li class="nav-item active">
+                {% else %}
                 <li class="nav-item">
+                {% endif %}
+                    <a class="nav-link" href="{{ site.baseurl }}/categories">Categories</a>
+                </li>
+    
+                {% if page.url == "/tags" %}
+                <li class="nav-item active">
+                {% else %}
+                <li class="nav-item">
+                {% endif %}
+                    <a class="nav-link" href="{{ site.baseurl }}/tags">Tags</a>
+                </li>
+
+
+                {% if page.url == "/about" %}
+                <li class="nav-item active">
+                {% else %}
+                <li class="nav-item">
+                {% endif %}
                 <a class="nav-link" href="{{ site.baseurl }}/about">About</a>
                 </li>
 
@@ -116,14 +137,26 @@ ga('send', 'pageview');
 
 <div class="container">
 
+
+
 <!-- Site Title
 ================================================== -->
-<div class="mainheading">
-    <h1 class="sitetitle">{{ site.name }}</h1>
-    <p class="lead">
-        {{ site.description }}
-    </p>
+
+
+{% if page.hero %}
+
+<div class="mainheading  homecover " style="background-image:url({{ site.baseurl }}/{{page.hero}});">
+    
+    {% if page.url == "/" %}
+    <h1 class="sitetitle"><span>{{ site.name }}</span></h1>
+    <p class="lead"><span>{{ site.description }}</span></p>
+    {% else %}
+    <h1 class="sitetitle"><span>{{ page.title }}</span></h1>
+    {% endif %}
 </div>
+{% endif %}
+
+
 
 <!-- Content
 ================================================== -->
@@ -180,7 +213,7 @@ ga('send', 'pageview');
     <div class="container">
         <div class="row">
             <div class="col-md-6 col-sm-6 text-center text-lg-left">
-                Copyright © {{ site.time | date: "%Y" }} {{ site.name }} 
+                {{ site.name }} website, Copyright © {{ site.time | date: "%Y" }} Simon Morris 
             </div>
             <div class="col-md-6 col-sm-6 text-center text-lg-right">    
                 <a target="_blank" href="https://www.wowthemes.net/mediumish-free-jekyll-template/">Mediumish Jekyll Theme</a> by WowThemes.net

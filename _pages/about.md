@@ -2,21 +2,24 @@
 layout: page
 title: About
 permalink: /about
-comments: true
+comments: false
+hero: simondotm/images/gate.jpg
 ---
 
+I'm Simon, a technologist / developer / maker, and this is my personal website for sharing the interesting ideas and projects I've accumulated over the years.
 
-After many years in software engineering I’ve rediscovered my old hobby of programming for the now vintage retro computers – particularly Acorn micros, BBC and Archimedes.
+I'm essentially a software engineer, but I've also started up and run a few businesses too.
 
-Since I found myself re-learning old knowledge, I thought I’d put up a site for sharing old code, new code, archives, discoveries and ideas.
+My passions cover a diverse range of technologies, both new and retro.
 
-You can also find my projects here on [GitHub](https://github.com/simondotm/)
+You can find some of my projects here on [GitHub](https://github.com/simondotm/)
 
 Some things I’ve made in [ShaderToy](https://www.shadertoy.com/user/zippycoder)
 
 Some pictures I’ve put on [Flickr](https://www.flickr.com/photos/9793651@N03/)
 
-I don’t do Twitter, or Instagram. Life is too short!
+I'm on [Twitter](https://twitter.com/simondotm) too if you want to drop me a line!
+
 
 
 <!--
