@@ -1,10 +1,13 @@
 ---
 layout: post
 title:  "Shadertoys"
-cover: "/images/shadertoy.png"
-date:   2016-01-28
-organiser: "Simon"
-
+author: simon
+categories: [ VGM ]
+tags: [red, yellow]
+image: simondotm/images/shadertoy.png
+description: "Shadertoys"
+featured: false
+hidden: false
 ---
 
 # Union Demo
